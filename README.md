@@ -84,7 +84,6 @@ after linking the xilinx object file vadd.hw_emu.xo with the platform xilinx_u20
 
 6) run the program last step 
 
-> ./hostname.exe kernelName.xclbin
 > $ host krnl_vadd.hw_emu.xclbin
 
 
