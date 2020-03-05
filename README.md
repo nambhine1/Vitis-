@@ -29,13 +29,11 @@ How to DO that ?
 
 > $ git clone https://github.com/nambhine1/vitis-/
 
+After you download it you can go to vitis- using the command bellow :
 
-In my case i download the vitis- in  >$ /home/semi/
+>$ cd vitis-/
 
-so you can see the source code of c = a * b , 
-
->$ /home/semi/vitis-/
-
+when you open this directory you can see :
 
 host.cpp: is the host code
 
@@ -43,15 +41,19 @@ host.hpp:is library used by host.cpp
 
 vadd.cpp :kernel function
 
-When you have an access to my code you can used it as reference and you can change it whatever you want ..
+you only need this 3 source code to build and run our applicatio project...
 
-In vitis to compile and link application project the host and the kernel should compile and linked seperatly 
+In vitis to compile and link an application program the host and the kernel should compile and linked seperatly 
 
 so we are going to compile and link the host first and then the kernel second 
 
 1)- to compile and link the host used this command bellow 
 
 Before you type this command make sure that you are in the right path which you have host.cpp, host.hpp, vadd.cpp those code are located in  >$ vitis-/
+
+input : host.cpp
+
+output : host
 
 > $ g++ -I$XILINX_XRT/include/ -I$XILINX_VIVADO/include/ -Wall -O0 -g -std=c++11 ./host.cpp  -o 'host'  -L$XILINX_XRT/lib/ -lOpenCL -lpthread -lrt -lstdc++
 
