@@ -108,7 +108,7 @@ after linking the xilinx object file vadd.hw_emu.xo with the platform xilinx_u20
 
 
 *******thank you so much***********
-
+any query email me : nambhine1@gmail.com
 
 
 
