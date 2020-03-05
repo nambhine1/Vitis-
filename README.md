@@ -13,7 +13,10 @@ so we try to change it with c = a * b
 How to DO that ?
 
 
--------------> Open terminal and tape :  >$ git clone https://github.com/Xilinx/Vitis-Tutorials/
+-------------> Open terminal and tape : 
+
+> $ git clone https://github.com/Xilinx/Vitis-Tutorials/
+
 
 In my case i download the Vitis-Tutorial in >$ /home/semi/
 
