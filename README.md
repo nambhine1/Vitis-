@@ -14,7 +14,7 @@ Vitis is a new tool of xilinx, in vitis the application program is split into ho
  
 <b>  <font size="16"> Techical details: </font> </b>
 
-In this tutorial the 
+In this tutorial the operating system that I m using is ubuntu means all command which I m using is in ubuntu.
 
 host code: is written using C++ OpenCL API (host.cpp and host.hpp)
 
