@@ -96,7 +96,7 @@ after linking the xilinx object file vadd.hw_emu.xo with the platform xilinx_u20
 7) after running the application program using hardware emulation you should see this in your terminal 
 
 
-<img src="https://github.com/nambhine1/vitis-/blob/master/imageilaiko.png" alt="output we should get" width="500" height="345">
+<img src="https://github.com/nambhine1/vitis-/blob/master/imageilaiko.png" alt="output we should get" width="500" height="100">
 
 
 
