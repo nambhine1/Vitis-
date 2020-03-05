@@ -61,6 +61,7 @@ after you build it you can see that it create an output file name : host (this f
 2)- second set upt the environment of vitis and xrt using the command bellow before you compile and link kernel otherwise it will show error
 
 > $ source /tools/Xilinx/Vitis/2019.2/settings64.sh
+
 > $ source /opt/xilinx/xrt/setup.sh
 
 3) after that compile the kernel function using the command bellow :
