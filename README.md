@@ -1,13 +1,12 @@
 
-<b> This tutorial show eatch and every step to run an application program in vitis xilinx software using C++ for host and kernel This application program perform c[i] = a[i] * b[i] </b>
+<b>  <font size="24"> This tutorial show eatch and every step to run an application program in vitis xilinx software using C++ for host and kernel This application program perform c[i] = a[i] * b[i] </font> </b>
 
-Introduction:
+<b>  <font size="16"> Introduction: </font> </b>
 
 Vitis is a new tool of xilinx, in vitis the application program is split into host and kernel function.The host and kernel are interconnected using PCIe, the host is written in C++ OpenCL API and the kernel (FPGA) is written using C++/C or RTL or OpenCL C, the figure bellow show the general architecture of host and kernel.
 
 
    <img src="https://github.com/nambhine1/vitis-/blob/master/host-kernel.png" alt="output we should get" width="700" height="400" class= "center" >
-
 
 In this tutorial the 
 
