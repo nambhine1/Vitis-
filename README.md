@@ -1,4 +1,4 @@
-----vitis----- with ---c++ for host and kernel -------vectorial multiplication --------------
+</b>----vitis----- with ---c++ for host and kernel -------vectorial multiplication -------------- </b>
 This tutorial is for the beginner who wouldlike to start with vitis *******
 
 In this tutorial we used the reference file provides by xilinx to do an vectorial additioning c = a + b 
