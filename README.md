@@ -86,7 +86,7 @@ output file : krnl_vadd.hw_emu.xclbin
 
 platform: xilinx_u200_xdma_201830_2
 
-> $ v++ -t hw_emu --platform xilinx_u200_xdma_201830_2 --link vadd.hw_emu.xo \ -o 'krnl_vadd.hw_emu.xclbin' --config ./connectivity.cfg
+> $ v++ -t hw_emu --platform xilinx_u200_xdma_201830_2 --link vadd.hw_emu.xo  -o 'krnl_vadd.hw_emu.xclbin' --config ./connectivity.cfg
 
 
 after linking the xilinx object file vadd.hw_emu.xo with the platform xilinx_u200_xdma_201830_2 we get an xclbin file so we can run it now 
