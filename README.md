@@ -93,6 +93,13 @@ after linking the xilinx object file vadd.hw_emu.xo with the platform xilinx_u20
 
 > $ ./host krnl_vadd.hw_emu.xclbin
 
+7) after running the application program using hardware emulation you should see this in your terminal 
+
+
+<img src="img_chania.jpg" alt="Flowers in Chania" width="700" height="345">
+
+
+
 
 
 
