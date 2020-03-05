@@ -25,11 +25,11 @@ so you can see the source code of c = a + b ,
 >$ /home/semi/Vitis-Tutorials/docs/my-first-program/reference-files/src
 
 
-host.cpp host code
+host.cpp: is the host code
 
-host.hpp host code 
+host.hpp:is library used by host.cpp
 
-vadd.cpp kernel function
+vadd.cpp :kernel function
 
 
 you can reffered with the code i change to do c = a * b , I modify the host.cpp and vadd.cpp
