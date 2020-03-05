@@ -17,7 +17,11 @@ How to DO that ?
 
 In my case i download the Vitis-Tutorial in >$ /home/semi/
 
-so you can see the source code of c = a + b , >$ /home/semi/Vitis-Tutorials/docs/my-first-program/reference-files/src
+so you can see the source code of c = a + b , 
+
+>$ /home/semi/Vitis-Tutorials/docs/my-first-program/reference-files/src
+
+
 host.cpp host code
 
 host.hpp host code 
