@@ -8,6 +8,12 @@ Vitis is a new tool of xilinx, in vitis the application program is split into ho
 
    <img src="https://github.com/nambhine1/vitis-/blob/master/host-kernel.png" alt="output we should get" width="700" height="400" class= "center" >
 
+<b>  <font size="16"> Motivation: </font> </b>
+
+ THis tutorial help us to understand the flow to build an application program so it will help us to create our own program and run it into an emulation hardware or software or hardware itself 
+ 
+<b>  <font size="16"> Techical details: </font> </b>
+
 In this tutorial the 
 
 host code: is written using C++ OpenCL API (host.cpp and host.hpp)
