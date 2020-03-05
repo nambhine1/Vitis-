@@ -41,7 +41,7 @@ host.hpp:is library used by host.cpp
 
 vadd.cpp :kernel function
 
-you only need this 3 source code to build and run our applicatio project...
+you only need this 3 source code to build and run our application program...
 
 In vitis to compile and link an application program the host and the kernel should compile and linked seperatly 
 
