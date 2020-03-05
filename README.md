@@ -71,6 +71,7 @@ after you build it you can see that it create an output file name : host (this f
 <b> 3) after that compile the kernel function using the command bellow : </b>
 
 input file :vadd.cpp
+
 output file : vadd.hw_emu.xo
 
 > $ v++ -t hw_emu --platform xilinx_u200_xdma_201830_2 -c -k vadd -I'./src' -o 'vadd.hw_emu.xo' ./vadd.cpp
@@ -80,7 +81,9 @@ output file : vadd.hw_emu.xo
 <b> 4) after we compile the source code of kernel we can link with platform </b>
 
 input file : vadd.hw_emu.xo
+
 output file : krnl_vadd.hw_emu.xclbin
+
 platform: xilinx_u200_xdma_201830_2
 
 > $ v++ -t hw_emu --platform xilinx_u200_xdma_201830_2 --link vadd.hw_emu.xo \ -o 'krnl_vadd.hw_emu.xclbin' --config ./connectivity.cfg
