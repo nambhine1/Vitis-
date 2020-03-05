@@ -1,5 +1,5 @@
 
-<b> This tutorial do multiplication vectorial of  c = a * b </b>
+<b> This tutorial show how to run an application program in vitis this code perform  c[i] = a[i] * b[i] </b>
 
 In this tutorial the 
 
@@ -9,9 +9,6 @@ Kernel code : is written using C++ (vadd.cpp)
 
 In this tutorial you can dowload my source code using git clone command 
 
- 
- To start with make sure that you download in your computer the vitis-/
- 
 How to DO that ?
 
 
