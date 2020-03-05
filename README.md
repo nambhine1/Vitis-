@@ -47,7 +47,7 @@ In vitis to compile and link an application program the host and the kernel shou
 
 so we are going to compile and link the host first and then the kernel second 
 
-1)- to compile and link the host used this command bellow 
+<b> 1)- to compile and link the host used this command bellow </b>
 
 Before you type this command make sure that you are in the right path which you have host.cpp, host.hpp, vadd.cpp those code are located in  >$ vitis-/
 
@@ -61,13 +61,14 @@ output : host
 after you build it you can see that it create an output file name : host (this file is the executable file)
 
 
-2)- second set upt the environment of vitis and xrt using the command bellow before you compile and link kernel otherwise it will show error
+<b> 2)- second set upt the environment of vitis and xrt using the command bellow before you compile and link kernel otherwise it will show error </b>
 
 > $ source /tools/Xilinx/Vitis/2019.2/settings64.sh
 
 > $ source /opt/xilinx/xrt/setup.sh
 
-3) after that compile the kernel function using the command bellow :
+
+<b> 3) after that compile the kernel function using the command bellow : </b>
 
 input file :vadd.cpp
 output file : vadd.hw_emu.xo
@@ -75,7 +76,8 @@ output file : vadd.hw_emu.xo
 > $ v++ -t hw_emu --platform xilinx_u200_xdma_201830_2 -c -k vadd -I'./src' -o 'vadd.hw_emu.xo' ./vadd.cpp
 
 
-4) after we compile the source code of kernel we can link with platform
+
+<b> 4) after we compile the source code of kernel we can link with platform </b>
 
 input file : vadd.hw_emu.xo
 output file : krnl_vadd.hw_emu.xclbin
@@ -87,17 +89,20 @@ platform: xilinx_u200_xdma_201830_2
 after linking the xilinx object file vadd.hw_emu.xo with the platform xilinx_u200_xdma_201830_2 we get an xclbin file so we can run it now 
 
 
-5) Before running set the command bellow :
+
+<b> 5) Before running set the command bellow : </b>
 
 > $ emconfigutil --platform xilinx_u200_xdma_201830_2
 
 > $ export XCL_EMULATION_MODE=hw_emu 
 
-6) run the program last step 
+
+<b> 6) run the program last step  </b>
 
 > $ ./host krnl_vadd.hw_emu.xclbin
 
-7) after running the application program using hardware emulation you should see this in your terminal 
+
+<b> 7) after running the application program using hardware emulation you should see this in your terminal </b>
 
 
 <img src="https://github.com/nambhine1/vitis-/blob/master/imageilaiko.png" alt="output we should get" width="500" height="100" class= "center" >
