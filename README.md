@@ -1,5 +1,11 @@
 
-<b> This tutorial is for the beginner who wouldlike to start with vitis doing c = a * b </b>
+<b> This tutorial do multiplication vectorial of  c = a * b </b>
+
+In this tutorial the 
+
+host code: is written using C++ OpenCL API (host.cpp and host.hpp)
+
+Kernel code : is written using C++ (vadd.cpp)
 
 In this tutorial we used the reference file provides by xilinx to do an vectorial additioning c = a + b 
 
