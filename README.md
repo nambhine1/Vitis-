@@ -7,56 +7,41 @@ host code: is written using C++ OpenCL API (host.cpp and host.hpp)
 
 Kernel code : is written using C++ (vadd.cpp)
 
-In this tutorial we used the reference file provides by xilinx to do an vectorial additioning c = a + b 
+In this tutorial you can dowload my source code using git clone command 
 
-
-so we try to change it with c = a * b 
- means we modify a little bit the host code and the kernel function using c++
  
- 
- To start with make sure that you download in your computer the vitis-reference file ...
+ To start with make sure that you download in your computer the vitis-/
  
 How to DO that ?
 
 
--------------> Open terminal and tape : 
+-------------> Open your terminal and type the command bellow to dowload the host code and kernel function (host.cpp , host.hpp,vadd.cpp) : 
 
-> $ git clone https://github.com/Xilinx/Vitis-Tutorials/
+> $ git clone https://github.com/nambhine1/vitis-/
 
 
-In my case i download the Vitis-Tutorial in >$ /home/semi/
+In my case i download the vitis- in  >$ /home/semi/
 
-so you can see the source code of c = a + b , 
+so you can see the source code of c = a * b , 
 
->$ /home/semi/Vitis-Tutorials/docs/my-first-program/reference-files/src
+>$ /home/semi/vitis-/
 
 
 host.cpp: is the host code
 
-host.hpp:is library used by host.cpp
+host.hpp:is library used by host.cpp 
 
 vadd.cpp :kernel function
 
+When you have an access to my code you can used it as reference and you can change it whatever you want ..
 
-you can reffered with the code i change to do c = a * b , I modify the host.cpp and vadd.cpp
+In vitis to compile and link application project the host and the kernel should compile and linked seperatly 
 
-
-you can used my code import it in vitis after you import the host.cpp, host.hpp,vadd.cpp
-
-
-you can build and run it 
-
-
-
-First of all in vitis the host and the kernel are build seperatly 
-
-
-so i compile and link the host first and then the kernel second 
-
-
-
+so we are going to compile and link the host first and then the kernel second 
 
 1)- to compile and link the host used this command bellow 
+
+Before you type this command make sure that you are in the right path which you have host.cpp, host.hpp, vadd.cpp those code are located in  >$ vitis-/
 
 > $ g++ -I$XILINX_XRT/include/ -I$XILINX_VIVADO/include/ -Wall -O0 -g -std=c++11 ./host.cpp  -o 'host'  -L$XILINX_XRT/lib/ -lOpenCL -lpthread -lrt -lstdc++
 
